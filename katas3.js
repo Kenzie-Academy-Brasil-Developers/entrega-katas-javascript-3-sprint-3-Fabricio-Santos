@@ -106,7 +106,7 @@ function kata8() {
   }
   resultadoUni = [...new Set(resultado)];
   showResults(resultadoUni.join(", "));
-  return resultado;
+  return resultadoUni;
 }
 kata8();
 
