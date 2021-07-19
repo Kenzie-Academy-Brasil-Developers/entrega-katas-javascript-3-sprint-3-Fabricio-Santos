@@ -104,7 +104,8 @@ function kata8() {
       resultado.push(i);
     }
   }
-  showResults(resultado.join(", "));
+  resultadoUni = [...new Set(resultado)];
+  showResults(resultadoUni.join(", "));
   return resultado;
 }
 kata8();
@@ -178,6 +179,7 @@ function kata14() {
   for (let i = 0; i <= sampleArray.length; i++) {
     resultado.push(sampleArray[i] * sampleArray[i]);
   }
+  resultado.pop();
   showResults(resultado.join(", "));
   return resultado;
 }
