@@ -18,7 +18,8 @@ function kata1() {
   for (i = 1; i <= 25; i++) {
     resultado.push(i);
   }
-  return showResults(resultado.join(", "));
+  showResults(resultado.join(", "));
+  return resultado;
 }
 kata1();
 
@@ -28,7 +29,8 @@ function kata2() {
   for (i = 25; i >= 1; i--) {
     resultado.push(i);
   }
-  return showResults(resultado.join(", "));
+  showResults(resultado.join(", "));
+  return resultado;
 }
 kata2();
 
@@ -38,7 +40,8 @@ function kata3() {
   for (i = 1; i <= 25; i++) {
     resultado.push(i * -1);
   }
-  return showResults(resultado.join(", "));
+  showResults(resultado.join(", "));
+  return resultado;
 }
 kata3();
 
@@ -48,7 +51,8 @@ function kata4() {
   for (let i = 25; i >= 1; i--) {
     resultado.push(i * -1);
   }
-  return showResults(resultado.join(", "));
+  showResults(resultado.join(", "));
+  return resultado;
 }
 kata4();
 
@@ -58,7 +62,8 @@ function kata5() {
   for (let i = 25; i >= -25; i -= 2) {
     resultado.push(i);
   }
-  return showResults(resultado.join(", "));
+  showResults(resultado.join(", "));
+  return resultado;
 }
 kata5();
 
@@ -70,7 +75,8 @@ function kata6() {
       resultado.push(i);
     }
   }
-  return showResults(resultado.join(", "));
+  showResults(resultado.join(", "));
+  return resultado;
 }
 kata6();
 
@@ -82,7 +88,8 @@ function kata7() {
       resultado.push(i);
     }
   }
-  return showResults(resultado.join(", "));
+  showResults(resultado.join(", "));
+  return resultado;
 }
 kata7();
 
@@ -97,7 +104,8 @@ function kata8() {
       resultado.push(i);
     }
   }
-  return showResults(resultado.join(", "));
+  showResults(resultado.join(", "));
+  return resultado;
 }
 kata8();
 
@@ -109,7 +117,8 @@ function kata9() {
       resultado.push(i);
     }
   }
-  return showResults(resultado.join(", "));
+  showResults(resultado.join(", "));
+  return resultado;
 }
 kata9();
 
@@ -119,7 +128,8 @@ function kata10() {
   for (let i = 0; i <= sampleArray.length; i++) {
     resultado.push(sampleArray[i]);
   }
-  return showResults(resultado);
+  showResults(resultado.join(", "));
+  return resultado;
 }
 kata10();
 
@@ -131,7 +141,8 @@ function kata11() {
       resultado.push(sampleArray[i]);
     }
   }
-  return showResults(resultado);
+  showResults(resultado);
+  return resultado;
 }
 kata11();
 
@@ -143,7 +154,8 @@ function kata12() {
       resultado.push(sampleArray[i]);
     }
   }
-  return showResults(resultado);
+  showResults(resultado.join(", "));
+  return resultado;
 }
 kata12();
 
@@ -155,7 +167,8 @@ function kata13() {
       resultado.push(sampleArray[i]);
     }
   }
-  return showResults(resultado);
+  showResults(resultado.join(", "));
+  return resultado;
 }
 kata13();
 
@@ -165,7 +178,8 @@ function kata14() {
   for (let i = 0; i <= sampleArray.length; i++) {
     resultado.push(sampleArray[i] * sampleArray[i]);
   }
-  return showResults(resultado);
+  showResults(resultado.join(", "));
+  return resultado;
 }
 kata14();
 
@@ -175,7 +189,8 @@ function kata15() {
   for (let i = 1; i <= 20; i++) {
     resultado = resultado + i;
   }
-  return showResults(resultado);
+  showResults(resultado);
+  return resultado;
 }
 kata15();
 
@@ -185,7 +200,8 @@ function kata16() {
   for (let i = 0; i < sampleArray.length; i++) {
     resultado = resultado + sampleArray[i];
   }
-  return showResults(resultado);
+  showResults(resultado);
+  return resultado;
 }
 kata16();
 
@@ -197,7 +213,8 @@ function kata17() {
       resultado = sampleArray[i];
     }
   }
-  return showResults(resultado);
+  showResults(resultado);
+  return resultado;
 }
 kata17();
 
@@ -209,30 +226,31 @@ function kata18() {
       resultado = sampleArray[i];
     }
   }
-  return showResults(resultado);
+  showResults(resultado);
+  return resultado;
 }
 kata18();
 
-/**
- * Daqui em diante são os bônus, por sua conta e risco
- */
+// /**
+//  * Daqui em diante são os bônus, por sua conta e risco
+//  */
 
-function kataBonus1() {
-  // implemente o código do kata bonus 1 aqui
-}
+// function kataBonus1() {
+//   // implemente o código do kata bonus 1 aqui
+// }
 
-function kataBonus2() {
-  // implemente o código do kata bonus 2 aqui
-}
+// function kataBonus2() {
+//   // implemente o código do kata bonus 2 aqui
+// }
 
-function kataBonus3() {
-  // implemente o código do kata bonus 3 aqui
-}
+// function kataBonus3() {
+//   // implemente o código do kata bonus 3 aqui
+// }
 
-function kataBonus4() {
-  // implemente o código do kata bonus 4 aqui
-}
+// function kataBonus4() {
+//   // implemente o código do kata bonus 4 aqui
+// }
 
-function kataBonus5() {
-  // implemente o código do kata bonus 5 aqui
-}
+// function kataBonus5() {
+//   // implemente o código do kata bonus 5 aqui
+// }
